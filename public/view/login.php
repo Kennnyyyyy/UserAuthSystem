@@ -20,7 +20,7 @@
     <h2 class="text-center mb-4 text-light">Login Form</h2>
     <div class="row justify-content-center text-light ">
         <div class="col-md-6">
-            <form action="" method="POST">
+            <form action="/project/controller/LoginController.php" method="POST">
                 <div class="mb-3">
                     <label for="username" class="form-label">Username</label>
                     <input type="text" name="username" class="form-control" placeholder="Username" required>
