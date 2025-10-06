@@ -8,13 +8,17 @@
     <style>
         body, html {
             height: 100%;
+            background-image: url('/project/public/images/signup.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
         }
     </style>
 </head>
 <body>
     <div class="container mt-5">
-    <h2 class="text-center mb-4">Signup Form</h2>
-    <div class="row justify-content-center">
+    <h2 class="text-center mb-4 text-light">Signup Form</h2>
+    <div class="row justify-content-center text-light">
         <div class="col-md-6">
             <form action="/project/controller/SignupController.php" method="POST">
                 <div class="mb-3">

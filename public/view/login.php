@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Document</title>
+    <style>
+        body, html {
+            height: 100%;
+            background-image: url('/project/public/images/login.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
 </head>
 <body>
     <div class="container mt-5">
-    <h2 class="text-center mb-4">Login Form</h2>
-    <div class="row justify-content-center">
+    <h2 class="text-center mb-4 text-light">Login Form</h2>
+    <div class="row justify-content-center text-light ">
         <div class="col-md-6">
             <form action="" method="POST">
                 <div class="mb-3">
